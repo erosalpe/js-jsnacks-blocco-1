@@ -6,7 +6,7 @@ let risultatoSommaDispari = 0;
 
 for (let i = 0; i <= xNum; i++){
     numeriInteriArray[i] = i;
-    if (numeriInteriArray.length % 2 !== 0){
+    if (i % 2 !== 0){
         console.log(`${risultatoSommaDispari}`, "+",  `${numeriInteriArray[i]}`);
         risultatoSommaDispari = risultatoSommaDispari + numeriInteriArray[i];
         console.log(`${risultatoSommaDispari}` );
